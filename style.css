@@ -1,0 +1,51 @@
+.names{
+    display: flex;
+    flex-direction: row;
+}
+.names #tenge{
+    margin-left: 145px;
+}
+.names #dollar{
+    margin-left: 220px;
+}
+.names #euro{
+    margin-left: 205px;
+}
+.values{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+    margin-top:10px;
+}
+.values #KZTvalue{
+    margin-left: 30px;
+    height: 20px;
+    width: 120px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.values #USDvalue {
+    margin-left: 180px;
+    height: 20px;
+    width: 120px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.values #EURvalue {
+    margin-left: 160px;
+    height: 20px;
+    width: 120px;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+#numbers{
+    width: 160px;
+    height: 18px;
+}
+.values #volue{
+    height: 24px;
+}
+.values h3{
+    padding-left: 5px;
+}
